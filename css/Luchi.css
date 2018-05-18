@@ -1,0 +1,381 @@
+/*font-family: 'EB Garamond', serif;
+font-family: 'Dancing Script', cursive;
+font-family: 'Bree Serif', serif;*/
+
+/** {
+  border: 1px solid red;
+  margin: 10px;
+}*/
+
+body {
+  margin: 0;
+}
+
+.Luchi__contenedor {
+  width: 1047px;
+  margin: auto;
+  position: relative;
+}
+
+.Luchi__header {
+  height: 120px;
+}
+
+.Luchi__position {
+  margin: auto;
+  text-align: center;
+}
+
+.Luchi__logo {
+  display: inline-block;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  margin-left: 0px;
+}
+
+.Luchi__menu {
+  font-size: 15px;
+  font-family: 'EB Garamond', serif;
+  display: inline-block;
+  position: absolute;
+  right: 0px;
+  top: 55px;
+}
+
+.Luchi__menu li {
+  display: inline-block;
+  margin-left: 32px;
+  }
+
+.Luchi__menu a {
+  text-decoration: none;
+  color: black;
+}
+
+.Luchi__slider {
+  background-image: url(../images/Slider.png);
+  background-size: 100%;
+  color: white;
+  height: 520px;
+  width: 1366px;
+  margin: auto;
+}
+
+.Luchi__slider__capa {
+  background: rgba(32, 26, 0, .8);
+  position: relative;
+  height: 420px;
+  top: 50px;
+}
+
+.Luchi__slider img {
+  position: relative;
+  top: 54px;
+}
+
+.Luchi__slider__title-a {
+  font-size: 30px;
+  font-family: 'Dancing Script', cursive;
+  position: relative;
+  top: 83px;
+  margin-top: 0px;
+}
+
+.Luchi__title {
+  font-size: 48px;
+  color: #ed254e;
+  font-family: 'Dancing Script', cursive;
+  text-align: center;
+  padding-top: 20px;
+  margin-bottom: 16px;
+  font-weight: normal;
+}
+
+.Luchi__productos__items {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+.Luchi__productos__cuadro {
+  background: rgb(250, 250, 250);
+  width: 508px;
+  height: 248px;
+  position: relative;
+  margin-bottom: 24px;
+}
+
+.Luchi__productos__title-c {
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'EB Garamond', serif;
+  position: absolute;
+  margin-top: 40px;
+  left: 16px;
+}
+
+.Luchi__productos__text {
+  font-size: 19px;
+  font-family: 'EB Garamond', serif;
+  width: 232px;
+  position: absolute;
+  top: 66px;
+  left: 20px;
+  margin-bottom: 0px;
+  margin-top: 8px;
+}
+
+.Luchi__productos__torta {
+  float: right;
+  margin-top: 32px;
+  margin-right: 36px;
+}
+
+.Luchi__barra {
+  background-color: #febb64;
+  margin: auto;
+  width: 1366px;
+  height: 145px;
+  display: flex;
+}
+
+.Luchi__barra__imagen {
+  position: relative;
+  left: 100px;
+  bottom: 65px;
+}
+
+.Luchi__barra__contadores {
+  display: inline-flex;
+  margin: auto;
+  text-align: center;
+}
+
+.Luchi__barra__item {
+  font-family: 'Dancing Script';
+  color: rgb(250, 250, 250);
+  font-size: 37px;
+  margin-left: 60px;
+}
+
+.Luchi__barra__contadores p {
+  margin-left: 20px;
+}
+
+.Luchi__barra__numero {
+  margin-top: 32px;
+  margin-bottom: 0px;
+}
+
+.Luchi__barra__texto {
+  margin-top: 5px;
+}
+
+.Luchi__nosotros {
+  height: 500px;
+}
+
+.Luchi__nosotros_imagen {
+  position: relative;
+  /*left: px;*/
+  height: 415px;
+  width: 365px;
+  top: 10px;
+  margin-left: 95px;
+  margin-right: 60px;
+}
+
+.Luchi__nosotros__iconos {
+  position: relative;
+  /*left: 150px;*/
+  margin-bottom: 25px;
+  margin-right: 16px;
+}
+
+.Luchi__nosotros__descripciones {
+  position: relative;
+  width: fit-content;
+  display: inline-block;
+}
+
+.Luchi__nosotros__descripciones div {
+  margin-bottom: 65px;
+}
+
+.Luchi__nosotros__descripciones h2 {
+  font-family: 'EB Garamond';
+  font-size: 25px;
+}
+
+.Luchi__nosotros__descripciones p {
+  font-family: 'EB Garamond';
+  font-size: 19px;
+}
+
+.Luchi__contacto {
+  background-image: url(../images/Fondo.jpg);
+  background-size: 100%;
+  height: 593px;
+  width: 1366px;
+  margin: auto;
+}
+
+.Luchi__contacto__capa {
+  background: rgba(0, 0, 0, .7);
+  height: 593px;
+  position: relative;
+}
+
+.Luchi__contacto__parrafo {
+  text-align: center;
+  color: white;
+  font-family: 'EB Garamond';
+  font-size: 18px;
+}
+
+.half {
+  float: left;
+  width: 44%;
+  margin-bottom: 1em;
+}
+
+.right {
+  width: 50%;
+}
+
+.left {
+  margin-right: 6%;
+}
+
+.Luchi__contacto--field {
+  border: solid 1px white;
+  background-color: rgba(0,0,0,.2);
+  padding: 10px;
+  padding-right: 0px;
+  font-family: 'Dancing Script', cursive;
+  font-size: 28px;
+  margin-bottom: 16px;
+  color: white;
+  display: block;
+  width: 100%
+}
+
+::-webkit-input-placeholder {
+  color: white;
+}
+
+:-ms-input-placeholder {
+  color: white;
+}
+
+::-moz-placeholder {
+  color: white;
+}
+
+:-moz-placeholder {
+ color: white;
+}
+
+textarea {
+  border: solid 1px white;
+  background-color: rgba(0,0,0,.2);
+  padding: 10px;
+  padding-right: 0px;
+  font-size: 18px;
+  width: 100%;
+  color: white;
+}
+
+.Luchi__contacto__boton--enviar {
+  border: 0px;
+  color: white;
+  font-family: 'EB Garamond';
+  font-size: 18px;
+  background: #ed254e;
+  cursor: pointer;
+  width: 158px;
+  height: 42px;
+  margin-top: 10px;
+  position: absolute;
+  right: 460px;
+}
+
+.Luchi__galeria {
+  width: 1366px;
+  height: 593px;
+  position: relative;
+  margin: auto;
+}
+
+.Luchi__galeria__imagenes {
+  display: flex;
+  position: absolute;
+  right: 0px;
+  margin-top: 25px;
+}
+
+.derecha {
+  height: 340px;
+}
+
+.centro {
+  height: 170px;
+}
+.izquierda {
+  height: 170px;
+}
+
+.Luchi__galeria__boton--entrar {
+  border: 0px;
+  color: white;
+  font-family: 'EB Garamond';
+  font-size: 18px;
+  background: #ed254e;
+  cursor: pointer;
+  width: 158px;
+  height: 42px;
+  position: absolute;
+  bottom: 0px;
+  top: 356px;
+  right: 624px;
+}
+
+.Luchi__footer {
+  height: 100%;
+  background-color: black;
+  border: 1px solid red;
+  color: white;
+  font-family: 'EB Garamond';
+}
+
+.contacto {
+  display: inline-block;
+  text-align: center;
+  width: 33%;
+  margin-top: 48px;
+}
+
+.social {
+  text-align: center;
+  margin-top: 44px;
+}
+
+.face {
+  margin-right: 48px;
+}
+
+.twi {
+  margin-left: 48px;
+}
+
+.Luchi__footer__inferior__copyrigth {
+  text-align: center;
+  font-size: 11px;
+}
+
+.Luchi__footer__inferior__depcom {
+  text-align: right;
+  margin-bottom: 8px;
+  margin-right: 8px;
+}
